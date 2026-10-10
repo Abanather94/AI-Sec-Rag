@@ -3,5 +3,12 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/raw/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/chunks/*
+!data/chunks/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
 .env
